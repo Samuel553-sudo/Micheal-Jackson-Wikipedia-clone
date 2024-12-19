@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Jackson - Wikipedia</title>
+    <link rel="stylesheet" href="Mj.css">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
+</head>
+<body>
+    <header>
+        
+          
+            <nav class="flex-div">
+                <div class="nav">
+                    <div class="tog-btn"><svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="40"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"></path></svg></div>
+                <div class="nav-left flex-div">
+                    <img src="images/Wikipedia-logo-v2.png" width="59px" height="55px">
+                    <br>
+                    <h1>WIKIPEDIA</h1>
+                    <P>The Free Eneyelopedia</P>
+                   
+                </div>
+                <div class="nav-middle flex-div">
+                    <div class="seacrh-box flex-div">
+                        <img src="images/search.png" >
+                        <input type="text" placeholder="Seacrh Wikipedia">
+                       <a href="#"><button type="submit">Seacrh</button></a>
+                    </div>
+                </div>
+                <div class="nav-right flex-div">
+                    <img src="images/more.png" width="20px" style="font-weight: bold;" onclick=moreSidebar() title="Change the appearance of the page's font size, width, and color" class="con">
+                    <a href="">Donate</a>
+               <a href="">Create account</a>
+               <a href="">login</a>
+               <br>
+               
+               <img src="images/more (2).png" width="20px" style="font-weight: bold;" onclick=showSidebar()>
+              
+                </div>
+                
+            </nav>
+
+           
+          </div>
+          <!-- <div class="map2">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill=""><path d="m249-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </a></li>
+            <p>Pages for logged out editors</p>
+            <a href="">(learn more)</a>
+            <br>
+            <br>
+            <a href="">Contributions</a>
+            <br>
+            <br>
+            <a href="">Talk</a>
+         </div> -->
+        
+          <ul class="links">
+            <p>Main menu <button type="submit">move to sidebar</button></p>
+            <hr style="color: #ccc;">
+            <li><a href="#">Main page</a></li>
+            <li><a href="#">Contents</a></li>
+            <li><a href="#">Currents events</a></li>
+            <li><a href="#">Random article</a></li>
+            <li><a href="">About Wikipedia</a></li>
+            <li><a href="">Contacts us</a></li>
+            <li class="con"><a href="" style="color: #908f8f;">Contribute</a></li>
+            <hr>
+            <li><a href="">Help</a></li>
+            <li><a href="">Learn to edit</a></li>
+            <li><a href="">Community portal</a></li>
+            <li><a href="">Rexent changes</a></li>
+            <li><a href="">Upload file</a></li>
+          </ul>
+    </header>
+    <script src="Mj.js"></script>
+    <script>
+       function showSidebar(){
+            const map2 = document.querySelector('.map2')
+            map2.style.display = 'inline-block'
+        }
+        function hideSidebar(){
+            const map2 = document.querySelector('.map2')
+            map2.style.display = 'none'
+        }
+    </script>
+     <script>
+        function moreSidebar(){
+             const mainright = document.querySelector('.mainright')
+             mainright.style.display = 'inline-block'
+         }
+         function backSidebar(){
+             const mainright = document.querySelector('.mainright')
+             mainright.style.display = 'none'
+         }
+     </script>
+     <script>
+        function trueSidebar(){
+             const mainleft = document.querySelector('.mainleft')
+             mainleft.style.display = 'inline-block'
+         }
+         function flaseSidebar(){
+             const mainleft = document.querySelector('.mainleft')
+             mainleft.style.display = 'none'
+         }
+     </script>
+     <br>
+     <br>
+<div class="container">
+    <!-- Main Left -->
+<div class="mainleft">
+    <p>Contents <span class="submit3" onclick=flaseSidebar()> hide</span></p>
+    <hr style="width: 160px;" class="don">
+    <br>
+    <p>(Top)</p>
+   <li> <a href="">Life and Career</a></li>
+    
+    <li><a href="">Death</a></li>
+   
+    <li><a href="">Legacy</a></li>
+    
+    <li><a href="">Philanthropy and humanitarian work</a></li>
+    <li><a href="">Artistry</a></li>
+    <li> <a href="">Honors and awards</a></li>
+   
+    
+   
+   <li><a href=""> Discography</a></li> 
+    
+    <li> <a href="">Filmography</a></li>
+   
+    <li> <a href="">Tours</a></li>
+   
+    <li><a href=""> See also</a></li>
+   
+    <li><a href="">Notes</a></li>
+    
+    <li><a href="">References</a></li>
+   
+    <li><a href="">Further reading</a></li>
+   <li><a href="">External links</a></li>
+    
+</div>
+<!-- End of Main Left -->
+
+
+
+
+<!-- Main Center -->
+<div class="main-center">
+    <div class="heading">
+        <div class="fog-btn" onclick="trueSidebar()"><i class="fa fa-list"></i></div>
+        <div class="heading-title">
+            <h2>Michael Jackson</h2>
+        </div>
+        <div class="heading-link">
+            <a href="">文A 270 languages</a>
+            <img src="images/show-more.png" width="50px" height="50px">
+        </div>
+    </div>
+    <hr style="" class="dan">
+    <div class="heading-subtitle-links">
+        <div class="sub-links">
+            <a href="" class="Art3">Article</a>
+            <a href="">Talk</a>
+        </div>
+        <div class="title-links">
+            <a href="" class="Art" class="art">Read</a>
+            <a href="" class="art">View source</a>
+            <a href="" class="art">View history</a>
+            <a href="" class="Art2">Tools</a>
+            
+        </div>
+    </div>
+    <hr class="dan2">
+    <div class="sub-heading">
+        <div class="sub-p">
+            <p>From Wikipedia, the free encyclopedia</p>
+        </div>
+       <div class="sub-img">
+        <img src="images/Cscr-featured.svg.png" alt="">
+        <img src="images/Extended-protection-shackle.svg.png" alt="">
+        <img src="images/Sound-icon.svg.png" alt="">
+       </div>
+    </div>
+
+    <div class="sub">
+        <p>(Redirected from <a href="">Micheal Jackson</a>)</p>
+    </div>
+
+    <div class="sub-main">
+        <i>
+        <p>This article is about the singer. For other uses, see <a href="">Micheal jackson (disambiguation).</a></p>
+        
+        
+        <p>"King of Pop" redirects here. For other uses, see  <a href="">King of Pop (disguation).</a></p>
+       
+    </i>
+    </div>
+
+   <div class="main-page">
+    <div class="sidebar-page">
+        <div class="text-page">
+            
+                <p>
+                    <b> Michael Joseph Jackson</b> (August 29, 1958 – June 25, 2009) was an American singer, songwriter, dancer, and philanthropist. Dubbed the <a href="" style="font-weight: bold;" class="Jam"> "King of Pop",</a> he is regarded as <a href="">one of the most significant cultural figures </a> of the 20th century. Over a four-decade career, his contributions to music, dance and fashion, along with his publicized personal life, made him a global figure in popular culture. Jackson influenced artists across a variety of musical styles. Through visual presentation, he popularized street dance moves such as the <a href=""> moonwalk,</a> to which he gave the name, and the <a href="">robot.</a>
+                     <br>
+                     <br>
+     As the eighth child of the <a href="">Jackson family,</a> Michael made his public debut in 1964 with his older brothers <a href="">Jackie,</a> <a href="">Tito,</a> <a href="">Jermaine,</a> and <a href="">Marlon</a> as a member of <a href=""> the Jackson 5</a> (later known as the Jacksons). The Jackson 5 signed with <a href="">Motown</a> in 1968 and achieved worldwide success with Michael as lead singer. Jackson began his solo career in 1971 while at Motown and recorded multiple successful singles. He became a global solo star with his 1979 album <a href=""><i>Off the Wall</i></a>. <a href="">His music videos,</a> including those for "<a href="">Beat It</a>", "<a href="">Billie Jean</a>", and "<a href="">Thriller</a>" from his 1982 album <a href=""><i>Thriller</i></a>, are credited with breaking <a href="">racial barriers</a> and transforming the medium into an art form and promotional tool. He helped popularize <a href="">MTV</a> and continued to innovate with videos for his albums <a href=""><i>Bad</i></a> (1987), <a href="">Dangerous</a> (1991), <a href=""><i>HIStory: Past, Present and Future, Book I</i></a> (1995), and <a href=""><i>Invincible</i></a> (2001). Thriller is the <a href=""> best-selling album of all time,</a> while Bad was the first album to produce five US <a href="">Billboard Hot 100</a> number-one singles. <a href=""><sup>[nb 1]</sup></a>
+                     <br>
+                     <br>
+     From the late 1980s, Jackson became a figure of controversy and speculation due to <a href=""> his changing appearance,</a> <a href="">relationships,</a> behavior, and lifestyle. In 1993, he <a href="">was accused of sexually abusing</a> the child of a family friend. The lawsuit was settled out of civil court; Jackson was not indicted due to lack of evidence. In 2005, he <a href=""> was tried and acquitted</a> of further child sexual abuse allegations and several other charges. <a href=""> The Federal Bureau of Investigation</a> found <a href=""> no evidence of criminal conduct</a> by Jackson. In 2009, while he was preparing for a series of comeback concerts, <a href="">This Is It,</a> Jackson <a href="">died</a> from an overdose of <a href="">propofol</a> administered by his personal physician, <a href=""> Conrad Murray</a>, who was <a href=""> convicted in 2011</a> of <a href="">involuntary manslaughter</a> for his involvement in Jackson's death. His death triggered reactions around the world, creating unprecedented surges of internet traffic and a spike in sales of his music. <a href="">Jackson's televised memorial service,</a> held at the <a href="">Staples Center</a> in Los Angeles, was estimated to have been viewed by more than 2.5 billion people.
+                     <br>
+                     <br>
+     Jackson is the <a href="">best-selling solo music act of all time</a> (based on <a href="">certified</a> <a href=""> album units</a> ), with estimated sales of over 500 million records worldwide. <a href=""><sup>[nb 2]</sup></a> He had 13 <a href=""> <i>Billboard</i> Hot 100 number-one singles</a> ( <a href="">the chart's fourth-highest of any artist</a> ) and was the first artist to have a top-ten single on the Billboard Hot 100 in five different decades. Jackson's inductions include the <a href="">Rock and Roll Hall of Fame</a> (twice), the <a href=""> National Rhythm & Blues Hall of Fame,</a> the <a href="">Vocal Group Hall of Fame,</a> the <a href="">Songwriters Hall of Fame</a> and the <a href="">Dance Hall of Fame</a> (making him the only recording artist to be inducted). His honors include 15 <a href="">Grammy Awards</a> including the <a href="">Grammy Legend Award,</a> six <a href="">Brit Awards,</a> 24 <a href="">American Music Awards,</a> a <a href="">Golden Globe Award</a> and 39 <a href="">Guinness World Records,</a> including "<a href="">Youngest artist to top the Hot 100</a>", "Longest span of number ones for a male act", the "Most Successful Entertainer of All Time", among <a href="">other records.</a>
+                 </p>
+                </div>
+                <br>
+             <div class="text-page2">
+                <h4>  Life and career</h4>
+                    <hr>
+                <p>
+ <h3> Early life and the Jackson 5 (1958–1975)</h3>
+ <br>
+ <div class="page">
+    <p>
+        Michael Joseph Jackson <a href=""><sup>[3][4]</sup></a> was born in <a href="">Gary, Indiana,</a> on August 29, 1958. <a href=""><sup>[5][6]</sup></a> He was the eighth of ten children in the <a>Jackson family,</a> a working-class <a href="">African-American</a> family living in a two-bedroom house on Jackson Street.<a href=""><sup>[7][8]</sup></a> His mother, <a href="">Katherine Esther Jackson</a> ( <i>née</i> Scruse), played clarinet and piano, had aspired to be a <a href="">country-and-western</a> performer, and worked part-time at <a href="">Sears.<sup>[9]</sup></a> She was a <a href="">Jehovah's Witness.<sup>[10]</sup></a> His father, <a href="">Joseph Walter "Joe" Jackson,</a> a former boxer, was a crane operator at <a href=""> US Steel</a> and played guitar with a local <a href="">rhythm and blues</a> band, the Falcons, to supplement the family's income.  <a href=""><sup>[11][12]</sup></a> Joe's great-grandfather, July "Jack" Gale, was a US Army <a href="">scout;</a> family lore held that he was also a Native American <a href="">medicine man.<sup>[13]</sup></a> Michael grew up with three sisters ( <a href="">Rebbie,</a> <a href="">La Toya,</a> and <a href="">Janet</a> ) and five brothers ( <a href="">Jackie,</a> <a href="">Tito,</a> <a href="">Jermaine,</a> <a href="">Marlon,</a> and <a href="">Randy</a> ).<a href=""><sup>[11]</sup></a> A sixth brother, Marlon's twin Brandon, died shortly after birth.<a href=""><sup>[14]</sup></a>
+    </p>
+    <div class="page-img">
+        <img src="images/220px-2300_Jackson_Street_Yuksel.jpg">
+        <p>Jackson's childhood home in <a href="">Gary indiana,</a> pictured in March 2010</p>
+        <br>
+    </div>
+ </div>
+                          <br>
+                          <br>
+ <div class="page">
+    <p>
+        In 1964, Michael and Marlon joined the Jackson Brothers—a band formed by their father which included Jackie, Tito and Jermaine—as backup musicians playing <a href="">congas</a> and <a href="">tambourine.<sup>[15][16]</sup></a> Michael said his father told him he had a "fat nose", <a href=""><sup>[17]</sup></a> and physically and emotionally abused him during rehearsals. He recalled that Joe often sat in a chair with a belt in his hand as he and his siblings rehearsed, ready to punish any mistakes.<a href=""><sup>[10][18]</sup></a> Joe acknowledged that he regularly whipped Michael. <a href=""><sup>[19]</sup></a> Katherine said that although whipping came to be considered abuse, it was a common way to discipline children when Michael was growing up. <a href=""><sup>[20][21]</sup> </a> Jackie, Tito, Jermaine and Marlon denied that their father was abusive and said that the whippings, which had a deeper impact on Michael because he was younger, kept them disciplined and out of trouble. <a href=""> <sup>[22]</sup></a> Michael said that during his youth he was lonely and isolated.<a href=""><sup>[23]</sup></a>
+    </p>
+ </div>
+  <br>
+  <br>
+
+  <div class="page">
+    <p>
+        Later in 1965, Michael began sharing lead vocals with Jermaine, and the group's name was changed to <a href="">the</a> <a href="">Jackson 5.</a> <a href=""><sup>[24]</sup></a> In 1965, the group won a talent show; Michael performed the dance to <a href="">Robert Parker'</a>s 1965 song "<a href="">Barefootin'</a>" and sang <a href="">the Temptations</a>' "<a href="">My Girl</a>".<a href=""><sup>[25]</sup></a> From 1966 to 1968, the Jacksons 5 toured the <a href="">Midwest;</a> they frequently played at a string of black clubs known as the <a href="">Chitlin' Circuit</a> as the opening act for artists such as <a href="">Sam & Dave</a>, the <a href="">O'Jays,</a> <a href="">Gladys Knight</a> and <a href="">Etta James.</a> The Jackson 5 also performed at clubs and cocktail lounges, where <a href="">striptease</a> shows were featured, and at local auditoriums and high school dances.<a href=""><sup>[26]</sup></a><a href=""><sup>[27]</sup></a> In August 1967, while touring the <a href="">East Coast,</a> they won a weekly amateur night concert at the <a href="">Apollo Theater</a> in <a href="">Harlem</a>.<a href="">[28]</a>
+    </p>
+   
+  </div>
+  
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  
+                   
+             </div>
+       
+    </div>
+    <div class="sub-page">
+        <div class="page-top">
+            <br>
+        <h3>Micheal Jackson</h3>
+        <br>
+        <img src="images/220px-Michael_Jackson_in_1988.jpg">
+        <figcaption>Jackson in 1988</figcaption>
+    </div>
+    <br>
+    <div class="page-main">
+      <div class="mj-page">
+        <li>Born</b></li>
+        <p class="page1">Michael Joseph Jackson  August 29, 1958 </p>
+      </div>
+      <div class="mj-page">
+        <li>Died</li>
+        <p class="page2">June 25, 2009 (aged 50)  Los Angeles, California, US</p>
+      </div>
+
+      <div class="mj-page">
+        <li>Cause of death</li>
+        <p class="page3"><a href="">Accidental homicide by acute propofol intoxication</a></p>
+      </div>
+
+      <div class="mj-page">
+        <li>Burial place</li>
+        <p class="page4"><a href="">Forest Lawn Memorial Park, Glendale, California</a> US</p>
+      </div>
+
+      <div class="mj-page">
+        <li>Other names</li>
+        <p class="page5"> Michael Joe Jackson</p>
+      </div>
+
+      <div class="mj-page">
+        <li>Occupations</li>
+        <p class="page6">Singer - songwriter - dancer - record producer</p>
+      </div>
+      <div class="mj-page">
+        <li>Spouses</li>
+        <p class="page7"><a href="">Lisa Marie Presley</a> <br><ins>(m.</ins> 1994; <ins>div.</ins> 1996) <br>  <a href="">Debbie Rowe</a> <br> (<ins>m.</ins> 1996; <ins>div.</ins> 2000)</p>
+      </div>
+      <br>
+      <div class="mj-page">
+        <li>Children</li>
+        <p class="page8">3, including <a href="">Paris</a></p>
+      </div>
+
+      <div class="mj-page">
+        <li>Parents</li>
+        <p class="page9"><a href="">Joe Jackson</a>  <a href="">Katherine Jackson</a></p>
+      </div>
+
+      <div class="mj-page">
+        <li>Family</li>
+        <p class="page10"><a href="">Jackson family</a></p>
+      </div>
+
+      <div class="mj-page">
+        <li>Awards</li>
+        <p class="page11"><a href="">Full list</a></p>
+      </div>
+            
+            <h3>Musical career</h3>
+      <br>
+      <div class="mj-page">
+        <li>Genres</li>
+        <p class="page12"><a href="">Pop</a> - <a href="">soul</a> - <a href="">R&B</a> - <a href="">funk</a> - <a href="">rock</a> - <a href="">disco</a> - <a href="">post- <br>disco</a> - <a href="">dance-pop</a> - <a href="">new jack swing</a></p>
+      </div>
+      <br>
+      <div class="mj-page">
+        <li>Instrument</li>
+        <p class="page13">Vocals</p>
+      </div>
+
+      <div class="mj-page">
+        <li>Discography</li>
+        <p class="page14"><a href="">Albums</a> - <a href="">singles</a> - <a href="">songs</a></p>
+      </div>
+
+      <div class="mj-page">
+        <li>Years active</li>
+        <p class="page15">1964-2009</p>
+      </div>
+
+      <div class="mj-page">
+        <li>Labels</li>
+        <p class="page16"><a href="">Steeltown</a> - <a href="">Motown</a> - <a href="">Epic</a> - <a href="">Legacy</a> - <a href="">Sony</a> - MJJ Productions</p>
+      </div>
+
+      <div class="mj-page">
+        <li>Formerly of</li>
+        <p class="page17"><a href="">The Jackson 5</a></p>
+      </div>
+
+      <div class="mj-page">
+        <li>Website</li>
+        <p class="page18"><a href="">michaeljackson.com</a></p>
+      </div>
+
+      <div class="page-bottom">
+        
+        <h3>Signature</h3>
+        <br>
+        <img src="images/100px-Michael_Jackson_signature.svg.png">
+    </div>  
+    </div>
+    </div>
+   </div>
+   <br>
+   
+   <div class="page">
+    <p>
+        The Jackson 5 recorded several songs for a Gary record label, <a href="">Steeltown Records;</a> their first single,<a href="">"Big Boy",</a> was released in 1968.<a href=""><sup>[30]</sup></a> <a href="">Bobby Taylor of Bobby Taylor & the Vancouvers</a> brought the Jackson 5 to <a href="">Motown</a> after they opened for Taylor at Chicago's <a href="">Regal Theater</a> in 1968. Taylor produced some of their early Motown recordings, including a version of <a href="">"Who's Lovin' You".</a><a href=""><sup>[31]</sup></a> After signing with Motown, the Jackson family relocated to Los Angeles.<a href=""><sup>[32]</sup></a> In 1969, Motown executives decided <a href="">Diana Ross</a> should introduce the Jackson 5 to the public — partly to bolster her career in television — sending off what was considered Motown's last product of its "production line". <a href=""><sup>[33]</sup></a> The Jackson 5 made their first television appearance in 1969 in the <a href="">Miss Black America</a> pageant, performing a cover of <a href="">"It's Your Thing".</a> <a href=""><sup>[34]</sup></a> <a href=""><i>Rolling Stone</i></a> later described the young Michael as "a prodigy" with "overwhelming musical gifts" who "quickly emerged as the main draw and lead singer".<a href=""><sup>[35]</sup></a>
+    </p>
+    <br>
+    <div class="page-img2">
+        <img src="images/220px-Jackson_5_tv_special_1972.JPG" alt="">
+        <p>Michael Jackson (center) as a member of the Jackson 5 in 1972. The group were among the first <a href="">African American</a> performars to attain a crossover following.<a href=""><sup>[29]</sup></a></p>
+    </div>
+  </div>
+</div>
+<!-- End of Main Center-->
+
+
+
+
+
+<!-- Main Right -->
+<div class="mainright">
+    <p class="title">Appearance <span class="submit2" onclick=backSidebar()> hide</span></p>
+    <hr style="width: 170px; " >
+    
+    <p class="sub-tille">Text</p>
+   
+    <hr style="width: 170px; " >
+    <div class="text">
+    <p><button type=""></button> Small</p>
+    <p><button type=""></button> Standard</p>
+    <p><button type=""></button> Large</p>
+</div>
+
+<p class="sub-tille">Width</p>
+
+<hr style="width: 170px;">
+<div class="text">
+    <p><button type="submit2"></button> Standard</p>
+    <p><button type="submit2"></button> wide</p>
+</div>
+
+<p class="sub-tille">Color (beta)</p>
+<hr style="width: 170px;">
+<div class="text">
+    <p><button type="submit2"></button> Automtic</p>
+    <p><button type="submit2"></button> light</p>
+    <p><button type="submit2"></button> Dark</p>
+</div>
+</div>
+<!-- End of Main Right -->
+<br>
+</div>
+<br>
+<hr  class="hr">
+<br>
+<footer>
+    <div class="footer-title">
+        <p>This page was last edited on 10 November 2024, at 08:12 (UTC)</p>
+    </div>
+    <br>
+    <br>
+    <div class="footer-subtitle-links">
+        <p>
+            Text is available under the <a href="">Creative commons Attribution-ShareAlike 4.0 Lincense</a>; additional terms may apply. By using this site, you agree to the <a href="">Terms of Use</a> and <a href="">Privacy Policy.</a> Wikipedia&reg; is a registered trademark of the <a href="">Wikimedia foundation, Inc., a non-profit organization</a> 
+        </p>
+    </div>
+    <br>
+    <div class="footer-links">
+       <li><a href="">Privacy policy</a></li>
+        <li><a href="">About Wikipedia</a></li>
+          <li><a href="">Disclamers</a></li>
+         <li><a href="">Contact Wikipedia</a></li>
+          <li><a href="">Code of Conduct</a></li>
+         <li> <a href="">Developers</a></li>
+          <li><a href="">Statics</a></li>
+         <li><a href="">Cookie statement</a></li>
+         <li><a href="">Mobile view</a></li>
+    </div>
+    <br>
+    <div class="footer-img">
+           <div class="f-img">
+            <img src="images/wikimedia-button.svg">
+           </div>
+           <div class="f-img">
+            <img src="images/poweredby_mediawiki (1).svg">
+           </div>
+    </div>
+</footer>
+<br>
+<br>
+</body>
+</html>
